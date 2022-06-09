@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center|bottom" android:width="500dp" android:height="200dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/taxi_light"/>
+            <stroke android:color="@color/taxi_dark" android:width="10dp"/>
+        </shape>
+    </item>
+    <item android:gravity="center|bottom" android:width="70dp" android:height="70dp">
+        <bitmap android:src="@drawable/logo_cabecera" />
+    </item>
+</layer-list>

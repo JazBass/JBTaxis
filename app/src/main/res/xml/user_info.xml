@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:key="personalData"
+        app:title="@string/string_personal_data">
+        <EditTextPreference
+            app:key="name"
+            app:singleLine="true"
+            app:title="@string/string_name" />
+        <EditTextPreference
+            app:key="surname"
+            app:singleLine="true"
+            app:title="@string/string_surname" />
+        <EditTextPreference
+            app:key="email"
+            app:singleLine="true"
+            app:title="@string/string_email" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="Info"
+        app:title="@string/string_info">
+        <EditTextPreference
+            app:key="nickname"
+            app:singleLine="true"
+            app:title="@string/string_user" />
+        <EditTextPreference
+            app:key="password"
+            app:singleLine="true"
+            app:title="@string/string_password" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/string_terms">
+        <CheckBoxPreference
+            app:defaultValue="true"
+            app:key="conditions"
+            app:title="@string/string_confirm_terms" />
+    </PreferenceCategory>
+</PreferenceScreen>

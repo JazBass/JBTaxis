@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JBTaxis</string>
+    <string name="string_notification">You will receive a notification when the taxi arrives at your location .</string>
+    <string name="string_onWay">Your taxi is on the way</string>
+    <string name="string_register">Register</string>
+    <string name="string_login">Continue as</string>
+    <string name="string_searching">Find a taxi</string>
+    <string name="string_detail_request">Request detail</string>
+    <string name="string_taxi_required">Requested Taxi:</string>
+    <string name="string_client">By:</string>
+    <string name="string_confirm">Confirm request</string>
+    <string name="string_wait">Approximate wait time</string>
+    <string name="string_minutes">minutes</string>
+    <string name="string_history">Orders history</string>
+    <string name="string_marc">Press to select this taxi</string>
+    <string name="string_personal_data">Personal information</string>
+    <string name="string_name">Name:</string>
+    <string name="string_surname">Surname:</string>
+    <string name="string_email">e-mail</string>
+    <string name="string_info">Account information</string>
+    <string name="string_user">Username</string>
+    <string name="string_password">Password</string>
+    <string name="string_terms">Terms of service</string>
+    <string name="string_confirm_terms">I accept the terms and conditions</string>
+</resources>

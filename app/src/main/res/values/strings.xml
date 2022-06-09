@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">JBTaxis</string>
+    <string name="string_notification">Recibirá una notificación cuando el taxi llegue a su ubicación.</string>
+    <string name="string_onWay">Su taxi está en camino.</string>
+    <string name="string_register">Registrarse</string>
+    <string name="string_login">Continuar como</string>
+    <string name="string_searching">Localizar su taxi</string>
+    <string name="string_detail_request">Detalle de la solicitud</string>
+    <string name="string_taxi_required">Taxi solicitado:</string>
+    <string name="string_client">A nombre de</string>
+    <string name="string_confirm">Confirmar solicitud</string>
+    <string name="string_wait">Tiempo de espera aproximado</string>
+    <string name="string_minutes">minutos</string>
+    <string name="string_history">Historial de pedidos</string>
+    <string name="string_marc">Presiona para solicitar este taxi</string>
+    <string name="string_personal_data">Datos personales</string>
+    <string name="string_name">Nombre:</string>
+    <string name="string_surname">Apellido:</string>
+    <string name="string_email">Dirección de email</string>
+    <string name="string_info">Información sobre su cuenta</string>
+    <string name="string_user">Nombre de usuario</string>
+    <string name="string_password">Contraseña</string>
+    <string name="string_terms">Términos del servicio</string>
+    <string name="string_confirm_terms">Acepto las condiciones del servicio</string>
+</resources>
