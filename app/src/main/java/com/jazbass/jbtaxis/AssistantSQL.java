@@ -1,5 +1,6 @@
 package com.jazbass.jbtaxis;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
@@ -37,7 +38,7 @@ public class AssistantSQL extends SQLiteOpenHelper {
 
     public ArrayList<String[]> getHistory(){
         String sql = "SELECT * FROM history";
-        Cursor cursor = database.rawQuery("SELECT * FROM history ORDER BY Date DESC", null);
+        @SuppressLint("Recycle") Cursor cursor = database.rawQuery("SELECT * FROM history ORDER BY Date DESC", null);
         ArrayList<String[]> arrayList = new ArrayList<>();
         cursor.moveToFirst();
         while (!cursor.isAfterLast()){

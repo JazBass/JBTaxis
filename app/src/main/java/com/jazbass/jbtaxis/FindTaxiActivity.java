@@ -62,8 +62,7 @@ GoogleMap.OnInfoWindowClickListener{
             e.printStackTrace();
         }
         BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.icono_taxi_mini);
-        for (Taxi taxi :
-                PrincipalActivity.availableTaxis) {
+        for (Taxi taxi : PrincipalActivity.availableTaxis) {
             if (taxi.isAvailable()) {
                 MarkerOptions taxiMarker = new MarkerOptions()
                         .position(new LatLng(taxi.getLat(), taxi.getLng()))

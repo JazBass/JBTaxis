@@ -38,7 +38,8 @@ public class HistoryAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View view, ViewGroup viewGroup) {
         LayoutInflater layoutInflater = activity.getLayoutInflater();
-        @SuppressLint({"ViewHolder", "InflateParams"}) View view1 = layoutInflater.inflate(R.layout.list_element, null, true);
+        @SuppressLint({"ViewHolder", "InflateParams"}) View view1 = layoutInflater.inflate(
+                R.layout.list_element, null, true);
         TextView txtCarRegistration, txtName, txtSurname, txtDate;
         txtCarRegistration = view1.findViewById(R.id.txtCarResgistration);
         txtName =  view1.findViewById(R.id.txtName);
@@ -46,9 +47,9 @@ public class HistoryAdapter extends BaseAdapter {
         txtDate =  view1.findViewById(R.id.txtDate);
 
         txtCarRegistration.setText(arrayList.get(position)[1]);
-        txtDate.setText(arrayList.get(position)[2]);
-        txtName.setText(arrayList.get(position)[3]);
-        txtSurname.setText(arrayList.get(position)[4]);
-        return null;
+        txtDate.setText(arrayList.get(position)[0]);
+        txtName.setText(arrayList.get(position)[2]);
+        txtSurname.setText(arrayList.get(position)[3]);
+        return view1;
     }
 }

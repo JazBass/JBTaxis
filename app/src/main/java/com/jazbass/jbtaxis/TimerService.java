@@ -41,7 +41,7 @@ public class TimerService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
         final Intent i = intent;
         int waitTime = i.getIntExtra("waitTime",0);
-        CountDownTimer timer = new CountDownTimer(waitTime* 60000L, waitTime* 60000L) {
+        CountDownTimer timer = new CountDownTimer(waitTime* 6000L, waitTime* 6000L) {
             @Override
             public void onTick(long l) {
 
@@ -52,6 +52,7 @@ public class TimerService extends Service {
                 getApplicationContext().stopService(i);
                 launchNotification();
                 Intent i = new Intent(TimerService.this, HistoryActivity.class);
+                i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(i);
             }
         };
