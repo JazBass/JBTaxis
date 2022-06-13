@@ -41,7 +41,7 @@ public class XMLAnalyzer {
             Taxi taxi = new Taxi();
             Node currentTaxi = nodeTaxi.item(i);
 
-            taxi.setcarRegistration(
+            taxi.setCarRegistration(
                     currentTaxi.getChildNodes().item(0).getFirstChild().getNodeValue());
             taxi.setLat(Double.parseDouble(
                     currentTaxi.getChildNodes().item(1).getFirstChild().getNodeValue()));

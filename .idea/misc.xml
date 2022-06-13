@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidStudioProjects/JBTaxis/app/src/main/res/drawable/cabecera.xml" value="0.167" />
+        <entry key="..\:/AndroidStudioProjects/JBTaxis/app/src/main/res/layout/activity_find_taxi.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/JBTaxis/app/src/main/res/layout/activity_history.xml" value="0.22" />
         <entry key="..\:/AndroidStudioProjects/JBTaxis/app/src/main/res/layout/activity_inProgress.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/JBTaxis/app/src/main/res/layout/activity_initial.xml" value="0.22" />

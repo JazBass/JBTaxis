@@ -34,6 +34,6 @@ public class ServerTaskXML extends AsyncTask {
     @Override
     protected void onPostExecute(Object o) {
         super.onPostExecute(o);
-        PrincipalActivity.availablesTaxis = availableTaxis;
+        PrincipalActivity.availableTaxis = availableTaxis;
     }
 }

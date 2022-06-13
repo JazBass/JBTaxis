@@ -25,11 +25,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".HistoryActivity" />
-        <activity android:name=".LocateActivity"/>
+        <activity android:name=".FindTaxiActivity"/>
         <activity android:name=".PreferencesActivity"/>
         <activity android:name=".RequestActivity"/>
         <activity android:name=".PrincipalActivity"/>
-
+        <service android:name=".TimerService"/>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAPmcPDslk_deuQdWkpjHN7sxH8IHTbAtI"/>
+        <uses-library android:name="org.apache.http.legacy" android:required="false" />
     </application>
 
 </manifest>

@@ -5,11 +5,11 @@ public class Taxi {
     double lat, lng;
     boolean available;
 
-    public String getMatricula() {
+    public String getCarRegistration() {
         return carRegistration;
     }
 
-    public void setcarRegistration(String carRegistration) {
+    public void setCarRegistration(String carRegistration) {
         this.carRegistration = carRegistration;
     }
 
